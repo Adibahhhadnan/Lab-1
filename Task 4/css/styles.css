@@ -1,0 +1,95 @@
+.header {
+  background-image: url("../img/milkbg.jpg");
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  max-width: 100%;
+  max-height: 100%;
+  display: block; 
+  
+ }
+
+.overlay {
+  position: absolute;
+  min-height: 50%;
+  min-width: 50%;
+  left: 25%;
+  top: 20%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+ }
+ .description h1 {
+  color: #ffffff;
+  font-size: 4.0rem;
+ }
+ .description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.0;
+}
+
+.text{
+    text-align: center;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+  float:left; width: 25%;
+}
+
+.background {
+  background-color: gray;
+  max-width: max-content;
+  max-width: 100%;
+}
+
+.right {
+  width: 75%;
+}
+
+.page-footer {
+  position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:lightskyblue;
+   color: white;
+   text-align: center;
+  }
+
+  .footer-copyright {
+      color: #ffffff;
+      padding: 40px 0;
+      }
+      img {
+          border-radius: 50%;
+        }
+
+        @media screen and (max-width: 500px) {
+  
+          .column,
+          .column2 {
+              width: 70%;
+          }
+      }                     
+      html {
+          scroll-behavior: smooth;
+        }
